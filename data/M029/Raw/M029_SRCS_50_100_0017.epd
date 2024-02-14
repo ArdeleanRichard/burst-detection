@@ -1,0 +1,95 @@
+EEG Processor Dataset
+Format version:
+1.1
+
+Number of EEG channels:
+32
+
+Sampling frequency (Hz):
+32000.0
+
+Total number of samples:
+19456000
+
+List with filenames that hold individual channel samples (32 bit IEEE 754-1985, single precision floating point; amplitudes are measured in uV):
+M029_SRCS_50_100_0017-Ch001.bin
+M029_SRCS_50_100_0017-Ch002.bin
+M029_SRCS_50_100_0017-Ch003.bin
+M029_SRCS_50_100_0017-Ch004.bin
+M029_SRCS_50_100_0017-Ch005.bin
+M029_SRCS_50_100_0017-Ch006.bin
+M029_SRCS_50_100_0017-Ch007.bin
+M029_SRCS_50_100_0017-Ch008.bin
+M029_SRCS_50_100_0017-Ch009.bin
+M029_SRCS_50_100_0017-Ch010.bin
+M029_SRCS_50_100_0017-Ch011.bin
+M029_SRCS_50_100_0017-Ch012.bin
+M029_SRCS_50_100_0017-Ch013.bin
+M029_SRCS_50_100_0017-Ch014.bin
+M029_SRCS_50_100_0017-Ch015.bin
+M029_SRCS_50_100_0017-Ch016.bin
+M029_SRCS_50_100_0017-Ch017.bin
+M029_SRCS_50_100_0017-Ch018.bin
+M029_SRCS_50_100_0017-Ch019.bin
+M029_SRCS_50_100_0017-Ch020.bin
+M029_SRCS_50_100_0017-Ch021.bin
+M029_SRCS_50_100_0017-Ch022.bin
+M029_SRCS_50_100_0017-Ch023.bin
+M029_SRCS_50_100_0017-Ch024.bin
+M029_SRCS_50_100_0017-Ch025.bin
+M029_SRCS_50_100_0017-Ch026.bin
+M029_SRCS_50_100_0017-Ch027.bin
+M029_SRCS_50_100_0017-Ch028.bin
+M029_SRCS_50_100_0017-Ch029.bin
+M029_SRCS_50_100_0017-Ch030.bin
+M029_SRCS_50_100_0017-Ch031.bin
+M029_SRCS_50_100_0017-Ch032.bin
+
+File holding event timestamps; timestamp is in samples; (32 bit signed integer file):
+M029_SRCS_50_100_0017-Event-Timestamps.bin
+
+File holding codes of events corresponding to the event timestamps file; timestamp is in samples; (32 bit signed integer file):
+M029_SRCS_50_100_0017-Event-Codes.bin
+
+Number of events (size of the list with event timestamps and list with event codes):
+320
+
+List with labels of EEG channels:
+El_01
+El_02
+El_03
+El_04
+El_05
+El_06
+El_07
+El_08
+El_09
+El_10
+El_11
+El_12
+El_13
+El_14
+El_15
+El_16
+El_17
+El_18
+El_19
+El_20
+El_21
+El_22
+El_23
+El_24
+El_25
+El_26
+El_27
+El_28
+El_29
+El_30
+El_31
+El_32
+
+Number of channels that were considered for computing an average reference:
+0
+
+List of channels (index name) that were taken into computing an average reference (if empty, then signals were not referenced when importing to EPD; be careful with Biosemi datasets that are recorded unreferenced...):
+
